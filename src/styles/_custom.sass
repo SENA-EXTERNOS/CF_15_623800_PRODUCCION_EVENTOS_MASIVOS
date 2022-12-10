@@ -1,19 +1,303 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: rotate 8s linear infinite
     position: absolute
-    top: 40%
-    right: 50%
+    width: 325px
+    top: 10%
+    right: 19%
+    z-index: -1
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 65%
+    right: 10%
+    display: none
+  &-3
+    animation: float4 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 6%
+    right: 48%
+  &-4
+    animation: float3 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 4%
+    display: none
+  &-5
+    animation: float4 3.8s ease-in-out infinite alternate
+    position: absolute
+    top: 15%
+    right: 40%
+    display: none            
 
+@keyframes rotate 
+  0%
+    transform: rotate(0)
+
+  100%
+    transform: rotate(360deg)
 
 @keyframes float1
   0%
+    transform: translatex(20px)
+
+  50%
+    transform: translatex(0px)
+  100%
+    transform: rotate(-10deg)
+
+@keyframes float2
+	0% 
+		transform: rotate(0deg) translateX(-20px) rotate(-20deg)
+	
+
+	100% 
+		transform: rotate(180deg) translateX(-20px) rotate(-180deg)  
+
+@keyframes float3
+  0%
     transform: translateY(20px)
 
-  100%
+  50%
     transform: translateY(0px)
+  100%
+    transform: rotate(-10deg)
+
+@keyframes float4
+	0% 
+		transform: rotate(0deg) translateX(-20px) rotate(-20deg)
+	
+
+	100% 
+		transform: rotate(-180deg) translateX(-20px) rotate(180deg)             
+
+.banner-principal__img
+  z-index: 1  
+
+.banner-principal__img
+  width: 400px !important    
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/6.png") !important
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: white 
+
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto  
+
+.cajon.color-acento-contenido
+  background-color: #E2DAFC  
+
+.bloque-texto-a.color-acento-contenido::before
+  background-color: #E2DAFC  
+
+.bloque-texto-a.color-acento-contenido 
+  background-color: #FEDC72    
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #8C6DF2
+    *
+      color: white
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+.cajon.color-secundario
+  background-color: #FFF6DB
+
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #D2E1F1
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first
+  &::before 
+    background-color: #D2E1F1 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+    background-color: #EEE9FD !important        
+.crd--med
+  &::before 
+    background-color: #EEE9FD !important    
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+
+.color-fondo-text
+  position: relative
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 80%
+  &__texto
+    position: relative
+    *
+      display: inline
+
+  &.bg-color
+    &:before
+      background-color: #FFEDD2   
+
+.bg1
+  background-color: #FEDC72
+  cursor: pointer
+  border-radius: 20px
+.bg1:hover
+  background-color: #8C6DF2
+  cursor: pointer
+  border-radius: 20px   
+  *
+    color: white     
+
+
+.tarjeta.color-acento-botones--borde
+  background-color: #FEDC72
+  border: 4px solid #FEDC72 
+.tabs-a.color-acento-botones .tabs-a__tab__selected::before 
+  background-color: #8C6DF2  
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus, .tabs-a.color-acento-botones .tabs-a__tab__selected
+  background-color: #8C6DF2 !important
+.tabs-a__tab 
+  background-color: #E8E8E8     
+
+.bloque-texto-b.color-primario::before
+  background-color: #FFF6DB   
+
+.bg2
+  background-color: #E1D9FB
+  border-radius: 20px   
+
+.bg3
+  background-color: #8C6DF2
+  border-radius: 20px 
+  *
+    color: white 
+
+.bg4
+  background-color: #FEDC72
+  border-radius: 20px      
+
+.bg5
+  background-color: #FEF6DB
+  border-radius: 20  
+
+.pasos-a.color-acento-contenido .pasos-a__circle div
+  color: white
+  text-transform: lowercase
+
+.tarjeta--gris
+  background-color: #FFFAEA  
+
+.acordion
+  .tarjeta.bg6
+    background-color: #FEDC72
+
+.tarjeta.bg6.acordion__activo
+  background-color: #5038A1 !important 
+  *
+    color: white !important 
+
+.acordion__accion__btn--a i
+  color: #5038A1 !important
+.tarjeta.bg6.acordion__activo i            
+  color: #FDB74D !important     
+
+.bg7
+  background-color: #E8E2FD
+
+.img-infografica__card
+  z-index: -1
+
+.img-infografica__card--selected
+  z-index: 1      
+
+.colorv
+  color: #8C6DF2  
