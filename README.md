@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/CF_15_623800_PRODUCCION_EVENTOS_MASIVOS/#/](https://sena-externos.github.io/CF_15_623800_PRODUCCION_EVENTOS_MASIVOS/#/)
 
 #
 
