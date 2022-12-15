@@ -47,7 +47,7 @@
             .col-lg-3
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/20.png', alt='')          
             .col-lg-9
-              p(data-aos="fade-left") Disponer de los recursos necesarios para atender las emergencias. Los recursos incluyen: botiquines, extintores, equipos de detección de incendios, tabla tipo fell, medios de comunicación, sistemas de alarmas, plantas eléctricas, carpas y frazadas, entre otros elementos para atender heridos, personas en condición de minusvalía o refugiados temporales.  
+              p(data-aos="fade-left") Disponer de los recursos necesarios para atender las emergencias. Los recursos incluyen: botiquines, extintores, equipos de detección de incendios, tabla tipo <i>fell</i>, medios de comunicación, sistemas de alarmas, plantas eléctricas, carpas y frazadas, entre otros elementos para atender heridos, personas en condición de minusvalía o refugiados temporales.  
 
           .row.justify-content-center.align-items-center
             .col-lg-9.text-start.order-lg-1
@@ -63,7 +63,7 @@
 
           .row.justify-content-center.align-items-center
             .col-lg-9.text-start.order-lg-1
-              p(data-aos="fade-right") Verificar que los elementos para la atención de emergencias, como sistemas de alarmas, extintores, detectores de humo, tablas tipo fell y botiquines, entre otros, se encuentren en buenas condiciones. Es importante tener listas de chequeo, con fecha y firma de los responsables, para dejar constancia de que se hizo esta verificación antes de comenzar la actividad.              
+              p(data-aos="fade-right") Verificar que los elementos para la atención de emergencias, como sistemas de alarmas, extintores, detectores de humo, tablas tipo <i>fell</i> y botiquines, entre otros, se encuentren en buenas condiciones. Es importante tener listas de chequeo, con fecha y firma de los responsables, para dejar constancia de que se hizo esta verificación antes de comenzar la actividad.              
             .col-lg-3.order-2
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/23.png', alt='')            
  
@@ -186,7 +186,7 @@
       .tarjeta.color-acento-botones.p-3(x="90%" y="48.5%" numero="+")
         p.mb-0 Reportar si los recursos que se tienen son o no suficientes para la atención, o si se deben activar los organismos de socorro externos.       
       .tarjeta.color-acento-botones.p-3(x="90%" y="71%" numero="+")
-        p.mb-0 El PMU es el sistema de organismos de ayuda externa, el cual toma las decisiones respecto a si la situación presentada se puede controlar o amerita la activación de bomberos, policía, defensa civil, cruz roja, etc  
+        p.mb-0 El PMU es el sistema de organismos de ayuda externa, el cual toma las decisiones respecto a si la situación presentada se puede controlar o amerita la activación de bomberos, policía, defensa civil, cruz roja, etc.  
       .tarjeta.color-acento-botones.p-3(x="90%" y="93.5%" numero="+")
         p.mb-0 Activar los organismos de socorro externos implica que el suceso pasó a un estado de emergencia general, por lo que se requiere su suspensión e iniciar procesos de evacuación. Se activa el plan de evacuación, el sistema de alarma y se procede a evacuar el lugar. 
 

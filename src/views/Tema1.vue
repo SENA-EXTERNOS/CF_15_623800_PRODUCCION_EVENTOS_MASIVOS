@@ -11,7 +11,7 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/2.png', alt='')                
       .col-lg-9.my-3
         .cajon.color-acento-contenido.p-4.mb-4(data-aos="flip-down")
-          p(data-aos="fade-down").mb-0 Alerta y alarma son dos palabras íntimamente relacionadas, pero es importante tener claro su significado. Una alerta es un estado de aviso previo a una situación, en tanto que una alarma es la emisión de señales acústicas o luminosas dispuestas para comunicar la necesidad inmediata de actuar, y por lo general implican la necesidad de evacuar lo más pronto posible un lugar hacia un punto seguro.      
+          p(data-aos="fade-down").mb-0 Alerta y alarma son dos palabras íntimamente relacionadas, pero es importante tener claro su significado. Una <b>alerta</b> es un estado de aviso previo a una situación, en tanto que una <b>alarma</b> es la emisión de señales acústicas o luminosas dispuestas para comunicar la necesidad inmediata de actuar, y por lo general implican la necesidad de evacuar lo más pronto posible un lugar hacia un punto seguro.      
       
         .bloque-texto-a.color-acento-contenido.p-4(data-aos="flip-down")
           .row.m-0.align-items-center.justify-content-between
@@ -57,7 +57,7 @@
       .col-lg-8.p-0.cajon.color-acento-contenido.p-4(data-aos="flip-down") 
         .p-2
           h5(data-aos="fade-down").mb-5 Las alertas son un mecanismo de anticipación y comunicación efectiva entre los responsables de la atención de emergencias, y deben estar codificadas con el fin de no crear pánico entre el público. Es de suma importancia que los integrantes del comité de emergencia las conozcan y se apropien de estas.
-          a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+          a.anexo.mb-4.mb-lg-0(href="http://portal.gestiondelriesgo.gov.co/paginas/old_noticias/1240.aspx" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto

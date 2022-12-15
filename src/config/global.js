@@ -214,7 +214,7 @@ export default {
       referencia:
         'Unidad para la Gestión del Riesgo de Desastres [UNGRD] (2011, 5 de diciembre). <i>Alertas y alarmas</i>. Mecanismos que salvan vidas.',
       link:
-        'http://portal.gestiondelriesgo.gov.co/paginas/old_noticias/1240.aspx.',
+        'http://portal.gestiondelriesgo.gov.co/paginas/old_noticias/1240.aspx',
     },
     {
       referencia:
