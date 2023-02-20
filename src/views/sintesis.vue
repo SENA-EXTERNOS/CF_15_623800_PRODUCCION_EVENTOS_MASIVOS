@@ -3,7 +3,8 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p(data-aos="fade-down").mb-5 La activación de los planes de emergencia y contingencia comienza antes de la ejecución de cualquier actividad. El desarrollo de prácticas y simulacros sirve para evaluar los recursos y la capacidad de respuesta ante una emergencia.
+    p(data-aos="fade-down").mb-5 El siguiente mapa integra los conceptos más relevantes de la información expresada en el presente componente formativo.
+
 
     .row.justify-content-center
       .col-lg-10.mb-5

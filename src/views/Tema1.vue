@@ -11,15 +11,15 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/2.png', alt='')                
       .col-lg-9.my-3
         .cajon.color-acento-contenido.p-4.mb-4(data-aos="flip-down")
-          p(data-aos="fade-down").mb-0 Alerta y alarma son dos palabras íntimamente relacionadas, pero es importante tener claro su significado. Una <b>alerta</b> es un estado de aviso previo a una situación, en tanto que una <b>alarma</b> es la emisión de señales acústicas o luminosas dispuestas para comunicar la necesidad inmediata de actuar, y por lo general implican la necesidad de evacuar lo más pronto posible un lugar hacia un punto seguro.      
+          p(data-aos="fade-down").mb-0 Alerta y alarma son dos palabras íntimamente relacionadas, pero es importante tener claro su significado. Una alerta es un estado de aviso previo a una situación, en tanto que una alarma es la emisión de señales acústicas o luminosas dispuestas para comunicar la necesidad inmediata de actuar y, por lo general, implican la necesidad de evacuar lo más pronto posible un lugar hacia un punto seguro. 
       
         .bloque-texto-a.color-acento-contenido.p-4(data-aos="flip-down")
           .row.m-0.align-items-center.justify-content-between
             .col-lg-12
               .bloque-texto-a__texto.p-4
-                p Para conceptualizar y aprender sobre el tema de las alertas y alarmas de emergencia, es importante tener en cuenta las definiciones que brinda la Guía técnica para la reglamentación local de eventos con aglomeraciones en público (Hernández y Zapata, 2018) de la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD).  
+                p Para comprender sobre el tema relacionado a las alertas y alarmas de emergencia, es importante tener en cuenta las definiciones que brinda la Guía técnica para la reglamentación local de eventos con aglomeraciones en público (Hernández y Zapata, 2018) de la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD).
 
-    p(data-aos="fade-down").mb-5 A continuación, hay algunos conceptos claves que se deben tener en cuenta respecto a las alertas y las alarmas de emergencia:
+    p(data-aos="fade-down").mb-5 Algunos conceptos claves que se deben tener en cuenta respecto a las alertas y alarmas de emergencia son:
 
     .row.justify-content-center.mb-5.text-center
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -51,12 +51,12 @@
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-12
         .cajon.color-secundario.p-4(data-aos="flip-down")
-          p(data-aos="fade-down").mb-0 Para entender estos conceptos es necesario saber que las alertas comunican, a través de los mecanismos disponibles, a los brigadistas, al puesto de mando unificado (PMU) y a organizadores en general sobre cualquier suceso que se puede materializar, y que se debe vigilar para evitar un estado de alarma generalizado. De esa manera es posible tomar medidas preventivas y de intervención oportuna.  
+          p(data-aos="fade-down").mb-0 Es primordial saber que las alertas, comunican a través de los mecanismos disponibles a los brigadistas, al Puesto de Mando Unificado (PMU) y a organizadores en general sobre cualquier suceso que se pueda materializar y que se deba vigilar para evitar un estado de alarma generalizado. De esa manera es posible tomar medidas preventivas y de intervención oportuna. 
 
     .row.justify-content-center.align-items-stretch.mb-5           
       .col-lg-8.p-0.cajon.color-acento-contenido.p-4(data-aos="flip-down") 
         .p-2
-          h5(data-aos="fade-down").mb-5 Las alertas son un mecanismo de anticipación y comunicación efectiva entre los responsables de la atención de emergencias, y deben estar codificadas con el fin de no crear pánico entre el público. Es de suma importancia que los integrantes del comité de emergencia las conozcan y se apropien de estas.
+          h5(data-aos="fade-down").mb-5 Las alertas son un mecanismo de anticipación y comunicación efectiva entre los responsables de la atención de emergencias, y deben estar codificadas con el fin de no crear pánico entre el público. Es de suma importancia que los integrantes del comité de emergencia las conozcan y se apropien de estas. Un ejemplo de codificación de alertas es el establecido por la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGDR) (2011, https://bit.ly/2PSfWUk), como se muestra en este enlace.
           a.anexo.mb-4.mb-lg-0(href="http://portal.gestiondelriesgo.gov.co/paginas/old_noticias/1240.aspx" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
@@ -64,11 +64,11 @@
               p #[b Enlace web.] Un ejemplo de codificación de alertas es el establecido por la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGDR) (2011), como se muestra a continuación.                 
       .col-lg-3.p-0
         img(data-aos="zoom-in")(src='@/assets/curso/temas/6.png', alt='')                
-    p(data-aos="fade-down").mb-5 Como se mencionó anteriormente, la clasificación por niveles de las alertas y alarmas de emergencia se presenta en los siguientes colores:
+    p(data-aos="fade-down").mb-5 La clasificación por niveles de las alertas y alarmas de emergencia se presenta en los siguientes colores:
 
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-9.position-relative
-        h4.mb-4.text-center.txt--purpura Niveles de Alerta, Código de Colores
+        
         .avatar
           figure
             img(src="@/assets/curso/temas/7.png", alt="alt").img250
@@ -115,7 +115,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/12.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p Las alarmas son sistemas de aviso de que algo está ocurriendo, y deben tener unas características punztuales, como ser audibles en todas las áreas del recinto, visibles (garantizando que puedan ser identificadas por personas sordas o con dificultades auditivas), y fáciles de entender para el personal en general al que van dirigidas, con las instrucciones claras. Por ello, en cualquier evento con aglomeración de público se debe contar con sistemas que garanticen alternativas en caso de problemas en el suministro de energía, como megáfonos, pitos, linternas u otras estrategias que permitan guiar a las personas de manera segura durante la evacuación del lugar, con medidas de protección colectiva.
+        p Las alarmas son sistemas de aviso de que algo está ocurriendo y deben tener unas características puntuales, como ser audibles en todas las áreas del recinto, visibles (garantizando que puedan ser identificadas por personas sordas o con dificultades auditivas) y fáciles de entender para el personal en general al que van dirigidas, con instrucciones claras. Por ello, en cualquier evento con aglomeración de público se debe contar con sistemas que garanticen alternativas en caso de problemas en el suministro de energía como megáfonos, pitos, linternas u otras estrategias que permitan guiar a las personas de manera segura durante la evacuación del lugar, con medidas de protección colectiva.
 
     .color-fondo-text.bg-color(data-aos="fade-down")
       .color-fondo-text__texto.p-2
@@ -149,19 +149,19 @@
           h5.mb-4 Alerta mapache
           p Persona que requiere atención de primeros auxilios.  
 
-    p(data-aos="fade-down") Para llevar a cabo una adecuada codificación de un sistema de alarma, es necesario tener en cuenta una serie de aspectos, como se muestra a continuación.
+    p(data-aos="fade-down") Para llevar a cabo una adecuada codificación de un sistema de alarma, es necesario tener en cuenta una serie de aspectos y características que se deben cumplir.
     p(data-aos="fade-down").mb-5 La codificación del sistema de alarma debe tener los siguientes pasos:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")           
       .col-lg-8
         TabsA.color-acento-botones.mb-5
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Pasos 1")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Paso 1")
             p Interrumpir el sonido de ambientación durante diez segundos.   
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Pasos 2")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Paso 2")
             p Activar la sirena durante diez segundos.  
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Pasos 3")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Paso 3")
             p Proceder a indicar la evacuación de la siguiente manera: “Por favor, se pide a los asistentes salir del lugar sin correr, haciendo uso de las tres puertas asignadas para la salida del evento y atendiendo las indicaciones de los brigadistas”.  
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Pasos 4")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Paso 4")
             p Hacer sonar la alarma de manera ininterrumpida. Si se llegara a presentar fallas en el sistema de alarma, se deberán utilizar megáfonos acompañados de luces de linternas rojas para activar la evacuación de los asistentes.   
       .col-lg-4
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/16.png', alt='')

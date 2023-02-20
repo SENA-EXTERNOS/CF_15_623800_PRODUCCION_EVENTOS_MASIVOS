@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Ejecución de plan de emergencias de acuerdo con el evento “simulacro”',
     descripcionCurso:
-      'La ejecución de los planes de emergencia se inicia antes de la entrada del público, lo que implica definir roles y responsabilidades para atender sucesos no planeados, verificando el cumplimiento de las normativas y la adherencia a los planes diseñados para mitigar y controlar los riesgos que se pueden materializar en cualquier espectáculo, feria o función.',
+      'La ejecución de los planes de emergencia se inicia antes de la entrada del público, lo cual implica, definir roles y responsabilidades para atender sucesos no planeados, verificando el cumplimiento de las normativas y la adherencia a los planes diseñados para mitigar y controlar los riesgos que se pueden materializar en cualquier espectáculo, feria o función.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

@@ -18,11 +18,9 @@
           .bloque-texto-a__texto.p-4
             p Si bien es cierto que el instinto de supervivencia en una situación inesperada hace que como humanos adoptemos comportamientos que pueden agravar la situación inicial, también es cierto que es posible actuar de forma positiva si vemos la situación controlada y manejada de manera correcta, porque eso proporciona una sensación de tranquilidad y contribuye a evitar estampidas y pánico generalizado. Ahí es donde se evidencia la importancia de activar el estado de precaución: todos y cada uno de los encargados del comité de emergencia, desde antes de iniciar el evento, deben apropiarse de su rol y conocer claramente cada uno de los planes a los que pertenece y debe apoyar. 
 
-    p(data-aos="fade-down").my-5 Teniendo en cuenta esta contextualización, cada uno de los planes anexos al plan de emergencia se evalúa previamente con el desarrollo de las prácticas de simulacros; por ello, desde que se organiza un evento con asistencia de público, es responsabilidad del organizador establecer el protocolo para activar cada uno de los planes con su respectivo responsable y las guías de actuación definidas (Figura 2).
+    p(data-aos="fade-down").my-5 Teniendo en cuenta lo anterior, cada uno de los planes anexos al plan de emergencia se evalúa previamente con el desarrollo de las prácticas de simulacros, por ello, desde que se organiza un evento con asistencia de público, es responsabilidad del organizador establecer el protocolo para activar cada uno de los planes con su respectivo responsable y las guías de actuación definidas.
+    p(data-aos="fade-down").my-5 Un plan general de emergencias se compone por:
 
-    .titulo-sexto.color-acento-contenido.mb-3
-      h5 Figura 2
-      span Componentes de un plan general de emergencias.
 
     ImagenInfografica.color-secundario.mb-5
       template(v-slot:imagen)
@@ -46,15 +44,20 @@
         p.mb-0 Lugar seguro que debe estar alejado del sitio del evento, y que deber ser fácilmente identificable. 
       .tarjeta.color-acento-botones.p-3(x="90%" y="96%" numero="6")
         h5.mb-3 Plan de manejo de tránsito
-        p.mb-0 Cuando el evento puede llegar a entorpecer el flujo vial de un lugar, y coordinar con el organismo de tránsito encargado.  
+        p.mb-0 Cuando el evento puede llegar a entorpecer el flujo vial de un lugar se coordina con el organismo de tránsito encargado. 
       .tarjeta.color-acento-botones.p-3(x="80%" y="33.4%" numero="7")
         h5.mb-3 Plan de evacuación
         p.mb-0 Se debe garantizar la señalización, vías de evacuación despejadas y puertas o salidas de emergencia libres.  
 
+
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-12
-        .cajon.color-secundario.p-4(data-aos="flip-down")
-          p(data-aos="fade-down").mb-0 Activar cada plan de emergencia dependerá del tipo de situación que se presente; por eso siempre se recomienda distribuir de manera uniforme el personal de apoyo de los diferentes planes, para que cada uno de sus miembros pueda cumplir con las funciones y responsabilidades asignadas a cada rol.  
+        .cajon.color-acento-contenido.p-4(data-aos="flip-down")
+          p(data-aos="fade-down").mb-0 Activar cada plan de emergencia dependerá del tipo de situación que se presente; por eso siempre se recomienda distribuir de manera uniforme el personal de apoyo de los diferentes planes, para que cada uno de sus miembros pueda cumplir con las funciones y responsabilidades asignadas a cada rol.
+    
+    .titulo-tercero.mb-5(data-aos="fade-right")
+      h3 Coordinación entre entidades
+    
     p(data-aos="fade-down").mb-5 Se presenta a continuación cuáles serían los pasos para gestionar una adecuada comunicación entre los entes y sus planes de emergencia.
 
     .row.justify-content-center.align-items-center.mb-5.bg5.p-3           
@@ -63,9 +66,7 @@
       .col
         p(data-aos="fade-down").mb-0 Gestionar de manera oportuna la comunicación entre el PMU y los coordinadores de cada plan para estar alerta ante cualquier situación (Figura 3).     
 
-    .titulo-sexto.color-acento-contenido.mb-3
-      h5 Figura 3
-      span Ruta de coordinación de un incidente.
+
     img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/32.svg', alt='')
 
 
@@ -85,22 +86,22 @@
       .col-auto
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/17.png', alt='')            
 
+    .titulo-tercero.mb-5(data-aos="fade-right")
+      h3 Evacuación
+
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-12
         .cajon.color-secundario.p-4(data-aos="flip-down")
-          p(data-aos="fade-down").mb-0 La activación del plan de emergencias tendrá como paso inicial la evacuación, que, de acuerdo con la Dirección de Prevención y Atención de Emergencias (DPAE), es el desalojo, “de manera ordenada y segura [de] un área o edificación que puede verse afectada por la ocurrencia de un evento peligroso a una zona segura” (2011, p. 1). 
+          p(data-aos="fade-down").mb-0 La activación del plan de emergencias tendrá como paso inicial la evacuación, que de acuerdo con la Dirección de Prevención y Atención de Emergencias (DPAE), es el desalojo “de manera ordenada y segura [de] un área o edificación que puede verse afectada por la ocurrencia de un evento peligroso a una zona segura” (2011, p. 1). 
 
-    p(data-aos="fade-down").mb-5 La Figura 4 muestra los tipos de evacuación.   
-
-    .titulo-sexto.color-acento-contenido.mb-3
-      h5 Figura 4
-      span Tipos de evacuación.   
+    p(data-aos="fade-down").mb-5 En el siguiente esquema se muestran los tipos de evacuación:  
+  
 
     ImagenInfografica.color-secundario.mb-5
       template(v-slot:imagen)
         figure
           img.img-a.img-t(src='@/assets/curso/temas/33.svg', alt='')
-          figcaption Fuente: elaboración propia con base en DPAE, 2011, p. 2.
+          figcaption Fuente: elaboración propia con base en DPAE (2011, p. 2).
 
 
       .tarjeta.color-secundario.p-3(x="18%" y="39%" numero="1")
@@ -108,7 +109,7 @@
         p.mb-0 Se efectúa ante factores considerados como generadores de un posible evento de emergencia, que es potencialmente peligroso para la vida de las personas.  
       .tarjeta.color-secundario.p-3(x="36.5%" y="5.8%" numero="2")
         h5.mb-3 Emergencia:  
-        p.mb-0 Cuando un evento afecta directa o indirectamente a las personas, y si no se ejecuta un plan para la prevención de desastres, la pérdida de vidas es inevitable.    
+        p.mb-0 Cuando un evento afecta directa o indirectamente a las personas y si no se ejecuta un plan para la prevención de desastres, la pérdida de vidas es inevitable.
       .tarjeta.color-secundario.p-3(x="63%" y="5.8%" numero="3")
         h5.mb-3 Parcial:  
         p.mb-0 Cuando el riesgo afecta un área definida, por lo que solo es necesario evacuar una parte de la población sin afectación de las otras.  
@@ -127,7 +128,10 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/34.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p  En el proceso los organizadores y su equipo de brigadistas deben contar con el apoyo de los organismos externos, como la Policía Nacional, Bomberos, Defensa Civil y Cruz Roja. Siempre se deben usar frases de orientación, evitar los gritos o incitar a correr, ya que esto altera el comportamiento de las personas, provocando situaciones peligrosas.  
+        p Durante el proceso, los organizadores y su equipo de brigadistas deben contar con el apoyo de los organismos externos, como la Policía Nacional, Bomberos, Defensa Civil y Cruz Roja. Siempre se deben usar frases de orientación, evitar los gritos o incitar a correr, ya que esto altera el comportamiento de las personas, provocando situaciones peligrosas.
+
+    .titulo-tercero.mb-5(data-aos="fade-right")
+      h3 Simulaciones y simulacros
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-12
@@ -162,7 +166,7 @@
             .col-10
               p Si solo se va a evaluar la capacidad de respuesta del comité de emergencias, o si se evalúa la capacidad de respuesta del comité y de los organismos de ayuda externa. 
 
-    p(data-aos="fade-down").mb-5 Para el desarrollo de cualquiera de los dos ejercicios (planes de emergencia y contingencia), se deben tener en cuenta las siguientes etapas:
+    p(data-aos="fade-down").mb-5 Para el desarrollo de cualquiera de los dos ejercicios, planes de emergencia y contingencia, se deben tener en cuenta las etapas explicadas en el siguiente video:
 
     .row.justify-content-center.align-items-center          
       .col-lg-12(data-aos="fade-left")     

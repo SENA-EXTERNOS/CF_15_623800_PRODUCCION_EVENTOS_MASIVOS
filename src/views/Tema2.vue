@@ -13,32 +13,39 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/18.png', alt='')
       .col-lg-6.my-3
         .bg3.p-3.mb-3(data-aos="fade-left") 
-          p(data-aos="fade-down").mb-0 El responsable del evento deberá dar la declaratoria de activación de plan de emergencias y contingencias. Se sugiere hacer esta declaratoria antes de la apertura al público, ya que así se dispondrá de la logística necesaria para que cada elemento asignado a la atención de emergencias esté en el lugar indicado y con las personas y organismos de socorro preparados.     
+          p(data-aos="fade-down").mb-0 El responsable del evento deberá dar la declaratoria de activación del plan de emergencias y contingencias. Se sugiere hacer esta declaratoria antes de la apertura al público, ya que así se dispondrá de la logística necesaria para que cada elemento asignado a la atención de emergencias esté en el lugar indicado y con las personas y organismos de socorro preparados. 
         .bg4.p-4.mb-3(data-aos="fade-right") 
           p(data-aos="fade-down").mb-0 El director del plan designará un responsable o coordinador general de emergencias, quien velará porque todos los niveles del comité, desde el puesto de mando unificado hasta los brigadistas, funcionen. 
         .bg3.p-3(data-aos="fade-left") 
           p(data-aos="fade-down").mb-0 Para el caso de los eventos se sugiere que, desde antes de iniciar la actividad y hasta cuando finalice, se active el plan y una alerta generalizada que permita tener monitorizados todos los aspectos que se puedan presentar.    
+    p(data-aos="fade-down").mb-4 Ante una situación de riesgo es común presentar dudas al momento de reaccionar, para tener mayor certeza examine las respuestas a estas preguntas:
+    p(data-aos="fade-down").mb-4 #[strong ¿Cuándo se deben activar los planes de emergencia?]
     p(data-aos="fade-down").mb-5 Teniendo en cuenta lo expuesto, los planes de emergencia se activan antes de presentarse un riesgo.
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-12
         .cajon.color-acento-contenido.p-4(data-aos="flip-down")
-          p(data-aos="fade-down").mb-0 Las alarmas generan una reacción inmediata de quienes presencian o están expuestos a los riesgos, y hace necesario que el comité de emergencias ponga en marcha los protocolos establecidos en el plan de emergencia, que incluyen acciones estratégicas, tácticas y operativas. 
+          p(data-aos="fade-down").mb-3 #[strong ¿Cómo se activa el plan de emergencia?]
+          p(data-aos="fade-down").mb-0 El plan de emergencia se activa por medio de las alarmas. Las alarmas generan una reacción inmediata de quienes presencian o están expuestos a los riesgos y hace necesario que el comité de emergencias ponga en marcha los protocolos establecidos en el plan de emergencia, que incluyen acciones estratégicas, tácticas y operativas. 
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/19.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p Cuando alguien detecta una situación de riesgo, puede optar por avisar a un integrante de la brigada de emergencias o llamar a un organismo de socorro externo. Por esa razón, es fundamental mantener una buena comunicación entre el comité de emergencias del organizador del evento y los organismos de socorro (Policía Nacional, Cruz Roja, Dirección Nacional de Bomberos, Defensa Civil, etc.).   
+        p #[strong ¿Qué se debe hacer ante una situación de riesgo?]
+        p Cuando alguien detecta una situación de riesgo, puede optar por avisar a un integrante de la brigada de emergencias o llamar a un organismo de socorro externo. Por esa razón, es fundamental mantener una buena comunicación entre el comité de emergencias del organizador del evento y los organismos de socorro (Policía Nacional, Cruz Roja, Dirección Nacional de Bomberos, Defensa Civil, etc.).
 
     .row.justify-content-center.align-items-center.mb-5.bg5.p-3
       .col
         p(data-aos="fade-down").mb-0 Igualmente, es preciso recordar que no se puede delegar la responsabilidad de atender la emergencia a esas entidades, sino que cada empresa dedicada a organizar eventos debe contar con un personal propio, capacitado para ello.                        
       .col-auto
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/17.png', alt='')
-            
-    p(data-aos="fade-down").mb-5 A continuación, se presentan las funciones y responsabilidades previas al desarrollo de la actividad: 
+
+    .titulo-tercero.mb-5(data-aos="fade-right")
+      h3 Antes del evento
+
+    p(data-aos="fade-down").mb-5 A continuación, se presentan las funciones y responsabilidades previas al desarrollo del evento: 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")           
       .col-lg-12
@@ -73,12 +80,15 @@
             .col-lg-9
               p(data-aos="fade-left") Desarrollar simulaciones y simulacros para evaluar la capacidad de respuesta del personal. En los procesos de capacitación se deben levantar actas de las reuniones para elaborar el guion, su evaluación con registro fotográfico y las acciones de mejora que surjan de este proceso.  
 
+    .titulo-tercero.mb-5(data-aos="fade-right")
+      h3 Inicio del evento
+
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-8
         .cajon.color-acento-contenido.p-4(data-aos="flip-down")
           p(data-aos="fade-down").mb-0 Una vez se inicie el proceso de apertura de un evento, se debe contar con requisitos mínimos que permitan su adecuado desarrollo.  
 
-    p(data-aos="fade-down").mb-5 Como se mencionó anteriormente, estos requisitos mínimos permiten dar comienzo al evento:
+    p(data-aos="fade-down").mb-5 Los requisitos que permiten dar comienzo al evento son:
 
     .tarjeta.tarjeta--gris.p-4
       PasosB.color-acento-botones
@@ -98,6 +108,9 @@
           .col-md-5
             img.img-a.img-t(src='@/assets/curso/temas/27.png', alt='')    
 
+    .titulo-tercero.mb-5(data-aos="fade-right")
+      h3 Fin del evento
+
     .row.justify-content-center.align-items-center.my-5           
       .col-lg-8
         .cajon.color-secundario.p-4(data-aos="flip-down")
@@ -108,6 +121,10 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/17.png', alt='')
       .col
         p(data-aos="fade-down").mb-0 Es importante también tener en cuenta los niveles de organización establecidos para la atención de emergencias y las funciones de las partes durante la activación del plan de emergencia, como consecuencia de la presentación de un suceso no planeado y sus afectaciones posteriores.
+
+    .titulo-tercero.mb-5(data-aos="fade-right")
+      h3 Clasificación de tareas del personal 
+    
     .row.justify-content-center.align-items-start.mb-5           
       .col-lg-6
         p(data-aos="fade-down").mb-4 Teniendo en cuenta los niveles o el normal desarrollo de las actividades, se presenta la siguiente clasificación:
@@ -168,11 +185,8 @@
       .col-auto
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/17.png', alt='')   
 
-    p(data-aos="fade-down").mb-5 A continuación, la Figura 1 presenta un esquema que está sujeto a las necesidades de la organización de cada evento:
+    p(data-aos="fade-down").mb-5 A continuación, se presenta un esquema que está sujeto a las necesidades de la organización de cada evento:
 
-    .titulo-sexto.color-acento-contenido.mb-3
-      h5 Figura 1
-      span Esquema de la organización de un evento.  
 
     ImagenInfografica.color-secundario.mb-5
       template(v-slot:imagen)
@@ -189,6 +203,9 @@
         p.mb-0 El PMU es el sistema de organismos de ayuda externa, el cual toma las decisiones respecto a si la situación presentada se puede controlar o amerita la activación de bomberos, policía, defensa civil, cruz roja, etc.  
       .tarjeta.color-acento-botones.p-3(x="90%" y="93.5%" numero="+")
         p.mb-0 Activar los organismos de socorro externos implica que el suceso pasó a un estado de emergencia general, por lo que se requiere su suspensión e iniciar procesos de evacuación. Se activa el plan de evacuación, el sistema de alarma y se procede a evacuar el lugar. 
+
+    .titulo-tercero.mb-5(data-aos="fade-right")
+      h3 Fases
 
     p(data-aos="fade-down").mb-5 En conclusión, las fases para activar los planes de emergencia y contingencia son:   
 
