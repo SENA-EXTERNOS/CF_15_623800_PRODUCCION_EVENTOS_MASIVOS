@@ -108,7 +108,7 @@
           .col-md-5
             img.img-a.img-t(src='@/assets/curso/temas/27.png', alt='')    
 
-    .titulo-tercero.mb-5(data-aos="fade-right")
+    .titulo-tercero.my-5(data-aos="fade-right")
       h3 Fin del evento
 
     .row.justify-content-center.align-items-center.my-5           
