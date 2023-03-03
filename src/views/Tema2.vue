@@ -34,6 +34,8 @@
       )
       .bloque-texto-g__texto.p-4
         p #[strong ¿Qué se debe hacer ante una situación de riesgo?]
+        br
+        br
         p Cuando alguien detecta una situación de riesgo, puede optar por avisar a un integrante de la brigada de emergencias o llamar a un organismo de socorro externo. Por esa razón, es fundamental mantener una buena comunicación entre el comité de emergencias del organizador del evento y los organismos de socorro (Policía Nacional, Cruz Roja, Dirección Nacional de Bomberos, Defensa Civil, etc.).
 
     .row.justify-content-center.align-items-center.mb-5.bg5.p-3

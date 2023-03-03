@@ -110,7 +110,7 @@ export default {
     {
       tema: 'Alerta y alarmas de emergencias',
       referencia:
-        'Unidad Nacional para la Gestión del Riesgo de Desastres [UNGRD] (2016). Guía para la implementación de sistemas de alerta temprana. UNGRD.',
+        'Unidad Nacional para la Gestión del Riesgo de Desastres [UNGRD] (2016). <i>Guía para la implementación de sistemas de alerta temprana.</i> UNGRD.',
       tipo: 'Guía',
       link: 'https://bit.ly/3DoqELK',
     },

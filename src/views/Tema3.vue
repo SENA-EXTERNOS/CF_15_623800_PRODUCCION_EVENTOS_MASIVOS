@@ -58,14 +58,13 @@
     .titulo-tercero.mb-5(data-aos="fade-right")
       h3 Coordinación entre entidades
     
-    p(data-aos="fade-down").mb-5 Se presenta a continuación cuáles serían los pasos para gestionar una adecuada comunicación entre los entes y sus planes de emergencia.
+    p(data-aos="fade-down").mb-5 Se debe gestionar de manera oportuna la comunicación entre el PMU y los coordinadores de cada plan para estar alerta ante cualquier situación.
 
     .row.justify-content-center.align-items-center.mb-5.bg5.p-3           
       .col-auto
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/17.png', alt='')
       .col
-        p(data-aos="fade-down").mb-0 Gestionar de manera oportuna la comunicación entre el PMU y los coordinadores de cada plan para estar alerta ante cualquier situación (Figura 3).     
-
+        p(data-aos="fade-down").mb-0 Se presenta a continuación cuáles serían los pasos para gestionar una adecuada comunicación entre los entes y sus planes de emergencia.
 
     img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/32.svg', alt='')
 
