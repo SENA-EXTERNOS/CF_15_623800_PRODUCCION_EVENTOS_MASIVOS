@@ -117,13 +117,6 @@ export default {
     {
       tema: 'Protocolo de activación del plan de emergencias y contingencias',
       referencia:
-        'Alcaldía Mayor de Bogotá-Dirección de Prevención y Atención de Emergencias [DPAE] (2011). <i>Señalización y plan de evacuación</i>. DPAE.',
-      tipo: 'Artículo',
-      link: 'https://bit.ly/3U1PTdI',
-    },
-    {
-      tema: 'Protocolo de activación del plan de emergencias y contingencias',
-      referencia:
         'Alcaldía Mayor de Bogotá-Fondo de Prevención y Atención de Emergencias [FOPAE] (2014, enero) <i>Guía Para el desarrollo de simulaciones</i>.',
       tipo: 'Guía',
       link: 'https://bit.ly/3NwZLd7',
@@ -192,7 +185,7 @@ export default {
     {
       referencia:
         'Alcaldía Mayor de Bogotá-Dirección de Prevención y Atención de Emergencias [DPAE] (2011). <i>Señalización y plan de evacuación</i>. DPAE.',
-      link: 'https://bit.ly/3U1PTdI.',
+      link: '',
     },
     {
       referencia:
