@@ -17,7 +17,7 @@
           .row.m-0.align-items-center.justify-content-between
             .col-lg-12
               .bloque-texto-a__texto.p-4
-                p Para comprender sobre el tema relacionado a las alertas y alarmas de emergencia, es importante tener en cuenta las definiciones que brinda la Guía técnica para la reglamentación local de eventos con aglomeraciones en público (Hernández y Zapata, 2018) de la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD).
+                p Para comprender sobre el tema relacionado con las alertas y alarmas de emergencia, es importante tener en cuenta las definiciones que brinda la Guía técnica para la reglamentación local de eventos con aglomeraciones en público (Hernández y Zapata, 2018) de la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD).
 
     p(data-aos="fade-down").mb-5 Algunos conceptos claves que se deben tener en cuenta respecto a las alertas y alarmas de emergencia son:
 

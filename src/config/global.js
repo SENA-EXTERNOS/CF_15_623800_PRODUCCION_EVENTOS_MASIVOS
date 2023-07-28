@@ -126,7 +126,8 @@ export default {
       referencia:
         'Organización Panamericana de la Salud [OPS] (2010). <i>Guía para el desarrollo de prácticas y simulacros</i>. OPS.',
       tipo: 'Guía',
-      link: 'https://www.paho.org/uru/dmdocuments/ER_Simulaciones.pdf',
+      link:
+        'https://bancos.salud.gob.ar/sites/default/files/2018-10/0000001204cnt-2017_guia-para-el-desarrollo-de-simulacros.pdf',
     },
   ],
   glosario: [
@@ -196,12 +197,13 @@ export default {
       referencia:
         'Hernández, N. y Zapata, G. (2018). <i>Guía técnica para la reglamentación local de eventos con aglomeraciones de público</i>. Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD).',
       link:
-        'https://repositorio.gestiondelriesgo.gov.co/bitstream/handle/20.500.11762/27735/Guia_aglomeraciones_publico.pdf?sequence=6&isAllowed=y',
+        'http://201.130.16.43/bitstream/handle/20.500.11762/27735/Guia_aglomeraciones_publico.pdf?sequence=6&isAllowed=y',
     },
     {
       referencia:
         'Organización Panamericana de la Salud [OPS] (2010). <i>Guía para el desarrollo de prácticas y simulacros<i>. OPS.',
-      link: 'https://www.paho.org/uru/dmdocuments/ER_Simulaciones.pdf',
+      link:
+        'https://bancos.salud.gob.ar/sites/default/files/2018-10/0000001204cnt-2017_guia-para-el-desarrollo-de-simulacros.pdf',
     },
     {
       referencia:
