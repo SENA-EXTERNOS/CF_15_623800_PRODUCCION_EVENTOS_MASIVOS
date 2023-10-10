@@ -171,7 +171,9 @@
       .col-lg-12(data-aos="fade-left")     
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/5OhekcN_Qxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/5OhekcN_Qxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)   
+
+      p.mt-5 Para un estudio completo del tema, recuerde explorar todos los recursos que se encuentran disponibles en este componente formativo, y que encuentra en el menú principal, tales como material complementario, actividad didáctica, glosario, entre otros. 
 </template>
 
 <script>
